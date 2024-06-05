@@ -1,0 +1,127 @@
+/** GENERAL STYLING (BODY BACKGROUND MARGINS) */
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.4);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-image: url('./assets/Background2.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    overflow-x: hidden;
+}
+
+.app-container {
+
+margin-right: 20px;
+
+}
+
+/** FOOTER STYLING */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff; 
+  padding: 20px;
+}
+
+/** CARD STYLING*/
+.budget-card {
+  background-color: rgba(255, 255, 255, 0.6); 
+  border: 3px solid white;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  min-width: 300px;
+}
+
+.budget-card.exceeded {
+  background-color: rgba(255, 0, 0, 0.4); 
+  color: white;
+}
+
+
+/** BUTTON STYLIING */
+.add-budget-btn {
+  border: 2px solid white;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.card-button {
+  width: 100%;
+  margin-top: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 6px;
+}
+
+.card-button:hover{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.card-btn{
+  width: 100%;
+  border: 2px solid white;
+  padding: 6px;
+  margin-top: 5px
+}
+
+
+/** MODAL STYLING*/
+.modal-content {
+  background-color: rgba(255, 255, 255, 0.9); 
+  color: black; 
+  border-radius: 10px;
+}
+
+.modal-footer {
+  justify-content: center; 
+}
+
+.modal-footer .btn-danger {
+  margin-left: 10px; 
+}
+
+/** MEDIA QUERIES*/
+@media (max-width: 768px){
+  .body{
+    height: 100vh;
+    background-image: url('./assets/Background2.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    overflow: scroll;
+  }
+
+  .budget-card{
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+
+
+

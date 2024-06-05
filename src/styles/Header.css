@@ -1,0 +1,24 @@
+/** HEADER STYLING */
+.header {
+    top: 0;
+    /* width: 100vw; */
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+
+  }
+  
+  h1 {
+    font-size: 60px;
+  }
+
+
+@media(max-width: 768px) {
+  h1 {
+    font-size: 45px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px black;
+  }
+  
+}

@@ -1,0 +1,37 @@
+.budget-card {
+    background-color: rgba(255, 255, 255, 0.6); 
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    min-width: 240px;
+    /* color: black; */
+  }
+
+  .budget-card.exceeded {
+    background-color: rgba(255, 0, 0, 0.4); 
+    color: white;
+  }
+
+  .card-title{
+    font-size: 20px;
+  }
+
+  .budget-name {
+    max-width: 150px; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .card-btn{
+    width: 100%;
+    border: 2px solid white;
+    padding: 6px;
+    margin-top: 5px
+  }
+
+  .card-button:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+  }
